@@ -26,7 +26,7 @@ const ManageBlogs = () => {
             <tr className="text-sm text-left">
               <th scope="col" className="px-6 py-3.5 rounded-tl-lg">
                 <h1 className="text-base font-semibold mb-1 text-slate-600 dark:text-slate-300">{session?.user.handle?.name}</h1>
-                <p className="text-gray-500 dark:text-text-primary text-sm font-normal">{session?.user.handle?.handle}.hashnode-t3.dev</p>
+                <p className="text-gray-500 dark:text-text-primary text-sm font-normal">{session?.user.handle?.handle}.yanfana.com</p>
               </th>
               <th scope="col" className="px-6 py-3.5 font-bold text-slate-600 dark:text-slate-300 whitespace-nowrap">Personal</th>
               <th scope="col" className="px-6 py-3.5 font-bold text-slate-600 dark:text-slate-300"><span>Owner</span></th>
