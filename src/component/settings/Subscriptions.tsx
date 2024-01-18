@@ -44,13 +44,13 @@ const Subscription = () => {
                 <LogonoText className="h-6 w-6 fill-gray-700 dark:fill-text-secondary" />
               </span>
               <p className="text-xl font-bold text-black dark:text-white flex items-center gap-2">
-                Hashnode Clone
+                ShareUp Pro
                 <span className="px-2 rounded-md bg-blue-500 text-base font-semibold text-white">PRO</span>
               </p>
             </header>
 
             <p className="text-sm text-gray-700 dark:text-text-secondary sm:text-base">
-              Level up your publishing experience with Hahsnode Pro with powerful AI
+              Level up your publishing experience with ShareUp Pro with powerful AI
               and premium features.
             </p>
           </div>

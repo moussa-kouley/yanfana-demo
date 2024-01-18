@@ -12,36 +12,36 @@ const ExploreSEO: React.FC = () => {
   const slug = useRouter().query.slug as string[] | undefined;
   const seoData: SeoData = {
     tags: {
-      title: "Explore Tags - Hashnode Clone",
+      title: "Explore Tags - ShareUp Pro",
       description:
         "Explore the most popular tech trends, topics, and tags from the Hashnode community. A constantly updating list.",
     },
     "tags-following": {
-      title: "Tags you follow - Hashnode Clone",
+      title: "Tags you follow - ShareUp Pro",
       description: "Tags you follow - Hashnode",
     },
     articles: {
-      title: "Explore Trending Articles - Hashnode Clone",
+      title: "Explore Trending Articles - ShareUp Pro",
       description:
         "A constantly updating list of best and popular tech blogs from the Hashnode dev community. Follow tech blogs you like.",
     },
     "articles-following": {
-      title: "Explore Following Articles - Hashnode Clone",
+      title: "Explore Following Articles - ShareUp Pro",
       description: "Articles you follow - Hashnode",
     },
   };
 
   const defaultSeoData: { title: string; description: string } = {
-    title: "Explore Popular Tech Blogs and Topics - Hashnode Clone",
+    title: "Explore Popular Tech Blogs and Topics - ShareUp Pro",
     description:
       "A constantly updating list of best and popular tech blogs from the Hashnode dev community. Follow tech blogs you like.",
   };
 
   const pageTitle: string =
     !slug || !slug[0] || !seoData[slug[0]]
-      ? "Explore Popular Tech Blogs and Topics - Hashnode Clone"
+      ? "Explore Popular Tech Blogs and Topics - ShareUp Pro"
       : seoData[slug[0]]?.title ||
-        "Explore Popular Tech Blogs and Topics - Hashnode Clone";
+        "Explore Popular Tech Blogs and Topics - ShareUp Pro";
 
   return (
     <Head>
