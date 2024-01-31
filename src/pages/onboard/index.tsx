@@ -84,7 +84,7 @@ const Onboard = () => {
               />
               <div>
                 <h1 className="text-lg font-semibold text-gray-700 dark:text-text-secondary">
-                  Ujen Basi
+                  Ujen 
                 </h1>
                 <p className="text-sm font-normal text-gray-500 dark:text-text-primary">
                   CEO, Google

@@ -38,7 +38,7 @@ const SeiesPage: NextPage<{
     <>
       <AuthorBlog author={user} />
       <AuthorBlogHeader user={user} />
-      {/* Home, Badge, Newsletter */}
+      Home, Badge, Newsletter
       <AuthorBlogNavigation tabs={user.handle.customTabs} />
 
       <SeriesContainer />

@@ -2,7 +2,7 @@ import { Placeholder } from "@tiptap/extension-placeholder";
 import { EditorContent, useEditor } from "@tiptap/react";
 import { useEffect, useState, type FC } from "react";
 import { type DefaultEditorContent } from "~/types";
-import { EditorBubbleMenu } from "./components";
+// import { EditorBubbleMenu } from "./components";
 import { TiptapExtensions } from "./extensions";
 import { TiptapEditorProps } from "./props";
 
@@ -75,7 +75,7 @@ const Editor: FC<{
       }}
       className={`relative select-none w-full max-w-screen-lg bg-transparent ${minHeight}`}
     >
-      {showBubbleMenu && editor && <EditorBubbleMenu editor={editor} />}
+      {/* {showBubbleMenu && editor && <EditorBubbleMenu editor={editor} />} */}
       <EditorContent editor={editor} />
     </div>
   );
