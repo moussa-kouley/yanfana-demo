@@ -36,7 +36,7 @@ const Aside = () => {
 
         <div className="p-4">
           <span className="text-sm text-gray-700 dark:text-text-primary">
-            @ {new Date().getFullYear()} Hashnode Clone
+            @ {new Date().getFullYear()} ShareUp
           </span>
         </div>
       </aside>

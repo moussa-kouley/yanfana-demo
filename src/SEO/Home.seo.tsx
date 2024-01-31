@@ -3,19 +3,19 @@ import Head from "next/head";
 const HomeSEO = () => {
   return (
     <Head>
-      <title>Hashnode Clone</title>
+      <title>ShareUp Pro</title>
       <meta
         name="description"
         content="Hashnode - Blogging community for developers, and people in tech"
       />
 
       {/* Open Graph tags for social media banner */}
-      <meta property="og:title" content="Hashnode Clone" />
+      <meta property="og:title" content="ShareUp Pro" />
       <meta
         property="og:description"
         content="Hashnode - Blogging community for developers, and people in tech"
       />
-      <meta property="og:site_name" content="Hashnode Clone" />
+      <meta property="og:site_name" content="ShareUp Pro" />
       <meta property="og:type" content="website" />
       <meta property="og:image" content="/hashnode-social-banner.png" />
       <meta
@@ -24,7 +24,7 @@ const HomeSEO = () => {
       />
 
       {/* Twitter card tags for Twitter banner */}
-      <meta name="twitter:title" content="Hashnode Clone" />
+      <meta name="twitter:title" content="ShareUp Pro" />
       <meta
         name="twitter:description"
         content="Hashnode - Blogging community for developers, and people in tech"

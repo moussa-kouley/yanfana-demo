@@ -27,7 +27,7 @@ const Footer = () => {
       </a>
 
       <p className="text-center text-gray-700 dark:text-text-secondary">
-        Powered by Hashnode Clone - Home for tech writers and readers
+        Powered by ShareUp Pro - Home for tech writers and readers
       </p>
     </div>
   );

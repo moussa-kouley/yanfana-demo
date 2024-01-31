@@ -10,14 +10,14 @@ const AuthorBlog: FC<{
 }> = ({ author }) => {
   return (
     <Head>
-      <title>{`${author?.name || ""}'s Blog - Hashnode Clone`}</title>
+      <title>{`${author?.name || ""}'s Blog - ShareUp Pro`}</title>
       <meta name="description" content={`${author?.name || ""}&apos;s Blog`} />
 
       {/* Open Graph tags for social media banner */}
       <meta property="og:title" content={`${author?.name || ""}&apos;s Blog`} />
       <meta
         property="og:description"
-        content={`${author?.name || ""}&apos;s Blog - Hashnode Clone`}
+        content={`${author?.name || ""}&apos;s Blog - ShareUp Pro`}
       />
       <meta property="og:site_name" content={author?.name}></meta>
       <meta property="og:type" content="Author Blog"></meta>
@@ -32,11 +32,11 @@ const AuthorBlog: FC<{
       {/* Twitter card tags for Twitter banner */}
       <meta
         name="twitter:title"
-        content={`${author?.name || ""}&apos;s Blog - Hashnode Clone`}
+        content={`${author?.name || ""}&apos;s Blog - ShareUp Pro`}
       />
       <meta
         name="twitter:description"
-        content={`${author?.name || ""}&apos;s Blog on Hashnode Clone.`}
+        content={`${author?.name || ""}&apos;s Blog on ShareUp Pro.`}
       />
       <meta property="twitter:image" content={"/hashnode-social-banner.png"} />
       <meta name="twitter:card" content="summary_large_image" />

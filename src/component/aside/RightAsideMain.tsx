@@ -34,7 +34,7 @@ const RightAsideMain: FC<{ tagDetails?: DetailedTag }> = ({ tagDetails }) => {
         ))}
       <Trending />
       <Bookmarks />
-      <Others />
+      {/* <Others /> */}
     </aside>
   );
 };

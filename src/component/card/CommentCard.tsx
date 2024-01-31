@@ -183,7 +183,7 @@ export const CommentCard: FC<Props> = ({
               </h3>
               {
                 comment?.user.stripeSubscriptionStatus === "active" && (
-                  <Tooltip label="Hashnode Clone Pro User" position="bottom" style={{
+                  <Tooltip label="ShareUp Pro Pro User" position="bottom" style={{
                     fontSize: "0.8rem",
                     fontWeight: "400",
                     letterSpacing: "0.5px"
