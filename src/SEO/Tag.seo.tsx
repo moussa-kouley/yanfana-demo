@@ -5,10 +5,10 @@ import { type DetailedTag } from "~/types";
 const TagSEO: FC<{ tagDetails: DetailedTag }> = ({ tagDetails }) => {
   return (
     <Head>
-      <title>#{tagDetails.slug || "Tag"} on ShareUp Pro</title>
+      <title>#{tagDetails.slug || "Tag"} on Hashnode Clone</title>
       <meta
         property="og:title"
-        content={`#${tagDetails.slug || "Tag"} on ShareUp Pro`}
+        content={`#${tagDetails.slug || "Tag"} on Hashnode Clone`}
       />
       <meta
         name="description"
@@ -21,7 +21,7 @@ const TagSEO: FC<{ tagDetails: DetailedTag }> = ({ tagDetails }) => {
         content={tagDetails.description || "No description provided."}
       />
       <meta property="og:type" content="website" />
-      <meta property="og:site_name" content="ShareUp Pro" />
+      <meta property="og:site_name" content="Hashnode Clone" />
       <meta
         property="og:image"
         content={tagDetails.logo || "/hashnode-social-banner.png"}
@@ -34,7 +34,7 @@ const TagSEO: FC<{ tagDetails: DetailedTag }> = ({ tagDetails }) => {
       {/* Twitter card tags for Twitter banner */}
       <meta
         name="twitter:title"
-        content={`#${tagDetails.slug || "Tag"} on ShareUp Pro`}
+        content={`#${tagDetails.slug || "Tag"} on Hashnode Clone`}
       />
       <meta
         name="twitter:description"

@@ -13,7 +13,7 @@ const SearchArea: FC = () => {
           <button
             aria-label="Go to my feed"
             role="button"
-            className="btn-subtle flex items-center justify-center gap-4"
+            className="btn-outline"
           >
             My Feed
           </button>
@@ -24,7 +24,7 @@ const SearchArea: FC = () => {
           role="button"
           className="btn-subtle flex items-center justify-center gap-4"
         >
-          <span>AI</span>
+          <span>Rix</span>
           <Ai className="h-4 w-4" />
         </button>
       </div>
@@ -38,7 +38,7 @@ const SearchArea: FC = () => {
           <div
             className={`h-10 w-full rounded-full border border-border-light px-10 py-2 text-gray-700 dark:border-border dark:text-text-primary`}
           >
-            Search for document...
+            Search for Javascript...
           </div>
 
           <div className="absolute right-4 top-1/2 flex -translate-y-1/2 gap-2">

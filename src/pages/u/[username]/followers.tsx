@@ -18,7 +18,7 @@ const Followers: NextPage<{
   return (
     <>
       <Head>
-        <title>{user.name}&apos;s Followers | ShareUp Pro</title>
+        <title>{user.name}&apos;s Followers | Hashnode Clone</title>
       </Head>
       <Header />
       <main className="min-h-[100dvh] w-full bg-light-bg dark:bg-black">

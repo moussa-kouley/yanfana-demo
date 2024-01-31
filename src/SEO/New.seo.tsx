@@ -3,8 +3,8 @@ import Head from "next/head";
 const NewSEO = () => {
   return (
     <Head>
-      <title>New Article - ShareUp Pro</title>
-      <meta property="og:title" content="New Article - ShareUp Pro" />
+      <title>New Article - Hashnode Clone</title>
+      <meta property="og:title" content="New Article - Hashnode Clone" />
       <meta
         name="description"
         content="Share your knowledge and experiences with the community."
@@ -16,7 +16,7 @@ const NewSEO = () => {
         content="Share your knowledge and experiences with the community."
       />
       <meta property="og:type" content="website" />
-      <meta property="og:site_name" content="ShareUp Pro" />
+      <meta property="og:site_name" content="Hashnode Clone" />
       <meta property="og:image" content="/hashnode-social-banner.png" />
       <meta
         property="og:url"
@@ -24,7 +24,7 @@ const NewSEO = () => {
       />
 
       {/* Twitter card tags for Twitter banner */}
-      <meta name="twitter:title" content="New Article - ShareUp Pro" />
+      <meta name="twitter:title" content="New Article - Hashnode Clone" />
       <meta
         name="twitter:description"
         content="Share your knowledge and experiences with the community"

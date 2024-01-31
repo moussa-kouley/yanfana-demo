@@ -9,12 +9,12 @@ const Anouncement = () => {
           <Rocket className="h-6 w-6 fill-gray-700 dark:fill-text-secondary" />
         </span>
         <span className="text-xl font-bold text-black dark:text-white">
-          Introducing ShareUp Pro
+          Introducing Hahsnode Pro
         </span>
       </header>
 
       <p className="mb-5 text-sm text-gray-700 dark:text-text-secondary sm:text-base">
-        Level up your publishing experience with ShareUp Pro with powerful AI
+        Level up your publishing experience with Hahsnode Pro with powerful AI
         and premium features.
       </p>
 

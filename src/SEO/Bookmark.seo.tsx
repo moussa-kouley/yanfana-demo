@@ -3,14 +3,14 @@ import Head from "next/head";
 const BookmarkSEO = () => {
   return (
     <Head>
-      <title>Bookmarks - ShareUp Pro</title>
-      <meta property="og:title" content="Bookmarks - ShareUp Pro" />
-      <meta name="description" content="Bookmarks - ShareUp Pro" />
+      <title>Bookmarks - Hashnode Clone</title>
+      <meta property="og:title" content="Bookmarks - Hashnode Clone" />
+      <meta name="description" content="Bookmarks - Hashnode Clone" />
 
       {/* Open Graph tags for social media banner */}
-      <meta property="og:title" content="Bookmarks - ShareUp Pro" />
-      <meta property="og:description" content="Bookmarks - ShareUp Pro" />
-      <meta property="og:site_name" content="ShareUp Pro" />
+      <meta property="og:title" content="Bookmarks - Hashnode Clone" />
+      <meta property="og:description" content="Bookmarks - Hashnode Clone" />
+      <meta property="og:site_name" content="Hashnode Clone" />
       <meta property="og:type" content="website" />
       <meta property="og:image" content="/hashnode-social-banner.png" />
       <meta
@@ -19,8 +19,8 @@ const BookmarkSEO = () => {
       />
 
       {/* Twitter card tags for Twitter banner */}
-      <meta name="twitter:title" content="Bookmarks - ShareUp Pro" />
-      <meta name="twitter:description" content="Bookmarks - ShareUp Pro" />
+      <meta name="twitter:title" content="Bookmarks - Hashnode Clone" />
+      <meta name="twitter:description" content="Bookmarks - Hashnode Clone" />
       <meta property="twitter:image" content="/hashnode-social-banner.png" />
       <meta name="twitter:card" content="summary_large_image" />
 

@@ -176,7 +176,7 @@ const NewArticleModal: FC<Props> = ({
 
         <main className="px-2 py-4 pt-4">
           <p className="mb-8 text-gray-600 dark:text-text-primary">
-            Read ShareUp Pro&apos;s{" "}
+            Read Hashnode Clone&apos;s{" "}
             <Link
               href="/docs/code-of-conduct"
               className="text-secondary underline"

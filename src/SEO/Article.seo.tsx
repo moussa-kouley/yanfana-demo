@@ -5,14 +5,14 @@ import { type Article } from "~/types";
 const ArticleSEO: FC<{ article: Article }> = ({ article }) => {
   return (
     <Head>
-      <title>{article.title || "Loading..."} - ShareUp Pro</title>
+      <title>{article.title || "Loading..."} - Hashnode Clone</title>
       <meta
         name="description"
         content={`${article.content.slice(0, 30)}`.trim()}
       />
 
       {/* Open Graph tags for social media banner */}
-      <meta property="og:title" content={`${article.title} - ShareUp Pro`} />
+      <meta property="og:title" content={`${article.title} - Hashnode Clone`} />
       <meta
         property="og:description"
         content={`${article.content.slice(0, 30)}`.trim()}
@@ -33,7 +33,7 @@ const ArticleSEO: FC<{ article: Article }> = ({ article }) => {
       {/* Twitter card tags for Twitter banner */}
       <meta
         name="twitter:title"
-        content={`${article.title} - ShareUp Pro`}
+        content={`${article.title} - Hashnode Clone`}
       />
       <meta
         name="twitter:description"

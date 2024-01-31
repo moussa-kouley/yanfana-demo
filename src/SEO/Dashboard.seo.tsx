@@ -5,12 +5,12 @@ const DashboardSEO = () => {
   const { data: user } = useSession();
   return (
     <Head>
-      <title>Dashboard - ShareUp Pro</title>
-      <meta name="description" content={`Dashboard on ShareUp Pro`} />
+      <title>Dashboard - Hashnode Clone</title>
+      <meta name="description" content={`Dashboard on Hashnode Clone`} />
 
       {/* Open Graph tags for social media banner */}
-      <meta property="og:title" content={`Dashboard - ShareUp Pro`} />
-      <meta property="og:description" content={`Dashboard on ShareUp Pro`} />
+      <meta property="og:title" content={`Dashboard - Hashnode Clone`} />
+      <meta property="og:description" content={`Dashboard on Hashnode Clone`} />
       <meta property="og:site_name" content={user?.user.name || ""}></meta>
       <meta property="og:type" content="user"></meta>
       <meta
@@ -25,10 +25,10 @@ const DashboardSEO = () => {
       />
 
       {/* Twitter card tags for Twitter banner */}
-      <meta name="twitter:title" content={`Dashboard - ShareUp Pro`} />
+      <meta name="twitter:title" content={`Dashboard - Hashnode Clone`} />
       <meta
         name="twitter:description"
-        content={`Dashboard on ShareUp Pro`}
+        content={`Dashboard on Hashnode Clone`}
       />
       <meta
         property="twitter:image"

@@ -106,15 +106,15 @@ const ExploreMainComponent = () => {
     <section className="container-main my-4 min-h-[100dvh] w-full">
       <div className="mb-4 rounded-md border border-border-light bg-white px-4 py-12 dark:border-border dark:bg-primary md:px-6">
         <h1 className="mb-4 text-center text-3xl font-semibold text-gray-700 dark:text-text-secondary">
-          Explore School Notes & articles
+          Explore Tech articles & Tags
         </h1>
-        {/* <p className="mx-auto w-full text-center text-base font-normal text-gray-500 dark:text-text-primary md:w-10/12 lg:w-8/12">
+        <p className="mx-auto w-full text-center text-base font-normal text-gray-500 dark:text-text-primary md:w-10/12 lg:w-8/12">
           Everything that&apos;s… Hashnode. Explore the most popular tech
           articles from the Hashnode community. A constantly updating list of
           popular tags and the best minds in tech.
-        </p> */}
+        </p>
         
-{/* <div className="list-container">
+<div className="list-container">
     <div className="list-item">
         <h2>Item 1</h2>
         <p>Description for Item 1 goes here.</p>
@@ -135,7 +135,7 @@ const ExploreMainComponent = () => {
         <h2>Item 5</h2>
         <p>Description for Item 5 goes here.</p>
     </div>
-</div> */}
+</div>
       </div>
 
       <div className="overflow-hidden rounded-md border border-border-light bg-white pt-2 dark:border-border dark:bg-primary">

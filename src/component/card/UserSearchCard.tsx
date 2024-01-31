@@ -69,7 +69,7 @@ const UserSearchCard: FC<Props> = ({ user: searchedUser, setOpened }) => {
               </h3>
               {
                 searchedUser.stripeSubscriptionStatus === "active" && (
-                  <Tooltip label="ShareUp Pro Pro User" position="bottom" style={{
+                  <Tooltip label="Hashnode Clone Pro User" position="bottom" style={{
                     fontSize: "0.8rem",
                     fontWeight: "400",
                     letterSpacing: "0.5px"

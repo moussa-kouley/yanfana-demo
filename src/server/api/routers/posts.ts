@@ -778,7 +778,7 @@ export const postsRouter = createTRPCRouter({
         ...newActivities,
         {
           id: uuid(),
-          title: "Joined ShareUp Pro",
+          title: "Joined Hashnode Clone",
           slug: "",
           createdAt: user?.createdAt,
           activity_type: "JOINED",
